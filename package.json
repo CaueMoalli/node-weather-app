@@ -4,7 +4,7 @@
   "description": "Express introduction of Node Course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "author": "Caue Moalli",
   "license": "ISC",
