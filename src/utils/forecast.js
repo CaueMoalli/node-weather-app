@@ -20,7 +20,12 @@ const forecast = (latitude, longitude, callback) => {
           body.current.temperature +
           " ºC on the outside. It feels like " +
           body.current.feelslike +
-          " ºC."
+          " ºC. " +
+          "Relative humidity currently is " +
+          body.current.humidity +
+          "% and cloud cover is " +
+          body.current.cloudcover +
+          "%."
       );
     }
   });
